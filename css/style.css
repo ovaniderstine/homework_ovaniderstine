@@ -1,0 +1,33 @@
+body {
+	background-color: #f5dadf;
+	font-family: arial;
+}
+h1 {font-family: 'Pacifico', cursive}
+
+ul {
+	color: black;
+	border: 3px black;
+	background-color: solid white;
+	list-style: disc;
+	margin: 3;
+}
+p {font-family: arial}
+#parent {display: flex;}
+
+#narrow {
+  float: left;
+  width: 100px;
+  background: white;
+  border: 1px solid red;
+
+}
+#wide {
+  float: left;
+  width: 200px;
+  padding: 50px;
+  border: 15px solid black;
+  margin: 50px;
+}
+a {
+	color: hotpink;
+}
