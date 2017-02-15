@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+
+#doSomething {
+  margin: 25px auto;
+  display: block;
+}
+
+#circle {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 25px auto;
+  transition: background 500ms;
+}
+
+#circle2 {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 25px auto;
+  transition: background 500ms;
+}
+
+.bulb {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 25px auto;
+  transition: background 100ms;
+}
+.section {
+	background-color: #EEEEEE;
+	padding: 30px;
+}
+
+.altBg {
+	background-color: gray;
+}
+
+h1 {
+ 	font-color: gray;
+ }
+
+ .row {
+	padding: 10px;
+}
