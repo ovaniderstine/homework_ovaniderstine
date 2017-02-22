@@ -1,0 +1,68 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #DDDDDD;
+font-family: 'Lora', Helvetica, Arial, sans-serif;
+}
+
+.btn-primary {
+	color: white;
+	background: black;
+	text-transform: uppercase;
+	border-radius:0;
+	font-family: verdana;
+}
+
+a {
+    color: hotpink;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+.jumbotron {
+	background-color: #f5dadf;
+	background-size: cover;
+	align-items: center;
+}
+
+.btn-default {
+	color: white;
+	background: black;
+	text-transform: uppercase;
+	border-radius:0;
+	font-family: verdana;
+}
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
+.altBg {
+	background-color: gray;
+}
+
+.row {
+	padding: 10px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.brand {
+	text-align: center;
+	font-size: 30px;
+}
