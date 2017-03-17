@@ -1,0 +1,112 @@
+body {
+    padding: 50px;
+}
+
+.img-thumbnail {
+    height: 100px;
+}
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background: #ffffff
+  font: normal normal 13px Arial, sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+
+.title {
+  font-size: 24px;
+  display: block;
+}
+
+.details {
+  color: grey;
+}
+
+.price {
+  display: block;
+  font-size: 18px;
+  color: black;
+}
+
+.quantity {
+  margin-bottom: 5px;
+}
+
+.product {
+  background-color: #D3D3D3;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.jumbotron {
+    height: 600px;
+}
+
+footer {
+    height: 400px;
+}
+
+.brand,
+.address-bar {
+    float: center;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font: normal normal 13px Arial, sans-serif;
+  	display: inline-block;
+  	float: none;
+  	vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+.btn {
+	border-radius:0;
+	background: black;
+	letter-spacing: 1px;
+    text-transform: uppercase;
+  margin: 10px;
+}
+
+h1 {
+	font:italic 50px Old Standard TT;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 1.5px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font:italic 22px Old Standard TT;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 1.5px;
+	margin-bottom: 15px;
+}
+
+
+a:link {
+color: gray;
+text-decoration:none;
+font-weight: 500;
+}
+
+a:visited {
+color: white;
+text-decoration:none;
+}
+
+a:hover {
+color: gray;
+text-decoration:none;
+}
