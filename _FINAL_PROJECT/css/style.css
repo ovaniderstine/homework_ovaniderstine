@@ -1,0 +1,154 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: white;
+font-family: 'Lora', Helvetica, Arial, sans-serif;
+}
+
+.btn-primary {
+	color: white;
+	background: black;
+	text-transform: uppercase;
+	border-radius:0;
+	font-family: verdana;
+}
+
+a {
+    color: hotpink;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+.jumbotron {
+	background-color: #f5dadf;
+	background-size: cover;
+	align-items: center;
+}
+
+.btn-default {
+	color: white;
+	background: black;
+	text-transform: uppercase;
+	border-radius:0;
+	font-family: verdana;
+}
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
+.altBg {
+	background-color: white;
+}
+
+.row {
+	padding: 10px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  background: white;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  background: white;
+}
+
+.brand {
+	text-align: center;
+	font-size: 30px;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    font-size: 5em;
+}
+
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: white;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #f5dadf;
+    border-bottom: 1px solid #f5dadf;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.banner h2 {
+    margin: 0;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+.greatest{
+  padding: 10px;
+  text-align: center;
+}
+
+.greatestList {
+  float: right;
+}
