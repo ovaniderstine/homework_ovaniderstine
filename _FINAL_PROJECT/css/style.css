@@ -152,3 +152,7 @@ a:hover {
 .greatestList {
   float: right;
 }
+
+ #map {
+        height: 400px;
+        width: 100%;
