@@ -70,7 +70,7 @@
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>Hi!</h1>
-                        <h3>Welcome to Food Mood. It'd be cool to have a big picture somewhere here.</h3>
+                        <h3>Welcome to Food Mood. I made a thing for FEWD about food.</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
@@ -94,11 +94,11 @@
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Something</h2>
-                    <p>Blah blah blah.</p>
+                    <h2 class="section-heading">I Eat A Lot</h2>
+                    <p>Good food with good people (or sometimes myself with a lot of pizzas) is one of my favorite ways to spend time. I wanted ot put it all together for my FEWD project.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img src="./images/pizza.JPG">
+                    <img src="./images/pizza.jpg">
                 </div>
             </div>
 
@@ -114,11 +114,11 @@
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Something again</h2>
-                    <p>Something again.</p>
+                    <h2 class="section-heading">I Take A Lot of Pictures</h2>
+                    <p>My Instagram is basically full of pictures I've taken from different restaurants. I love looking back through my camera roll at al the cool places I"ve been.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img src="./images/maude.PNG">
+                    <img src="./images/maude.png">
                 </div>
             </div>
 
@@ -132,7 +132,7 @@
           <h2>What This Website Is</h2>
         
           <span class="more">
-              TK TK
+              A place where you can reference Jonathan Gold's 101 Best Restaurants in LA, along with my 101 Favorite Restaurants in LA, because they're different, duh.
           </span>
         </div>
 
@@ -140,15 +140,15 @@
           <h2>What It Isn't</h2>
         
           <span class="more">
-              TK TK
+            No room to talk about restaurants I don't like. 
           </span>
           </div>
 
           <div class="col-xs-4">
-          <h2> TBD</h2>
+          <h2> Future Goals </h2>
         
           <span class="more">
-              Major TBD vibes.
+              Eventually this will be a database where you can keep track of all the different restaurants you've been to. So helpful!
           </span>
           </div>
 
@@ -170,6 +170,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
+
+    <script type="text/javascript">
+
+        var images = ['./images/palm.png', './images/la.jpg', './images/fairfax.jpg', './images/palm.png', './images/fairfax.jpg'];
+
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (6 - 0 + 1)) + 0;
+        }
+
+        var img = images[getRandomInt()]
+        document.body.style.backgroundImage = "url("+ img +")";
+
+    </script>
+
 
   </body>
 </html>

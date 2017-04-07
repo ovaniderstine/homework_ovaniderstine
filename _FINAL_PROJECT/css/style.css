@@ -3,7 +3,10 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
   background-color: white;
-font-family: 'Lora', Helvetica, Arial, sans-serif;
+  font-family: 'Lora', Helvetica, Arial, sans-serif;    
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0px 170px;
 }
 
 .btn-primary {
@@ -67,6 +70,11 @@ a:hover {
 .brand {
 	text-align: center;
 	font-size: 30px;
+  
+}
+
+.brand img {
+  max-width: 100%; 
 }
 
 .lead {
@@ -139,6 +147,10 @@ a:hover {
     margin-bottom: 0;
 }
 
+.right-col {
+  text-align: center;
+}
+
 .banner-social-buttons {
     float: right;
     margin-top: 0;
@@ -150,7 +162,7 @@ a:hover {
 }
 
 .greatestList {
-  float: right;
+  float: left;
 }
 
  #map {
